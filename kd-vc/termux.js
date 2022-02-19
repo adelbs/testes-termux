@@ -41,8 +41,8 @@ async function enviarSms(numero, texto) {
 }
 
 async function localizacao() {
-  const out = await rodarComando('termux-location');
-  const local = JSON.parse(out);
+//   const out = await rodarComando('termux-location');
+//   const local = JSON.parse(out);
   
 //   return `http://www.google.com/maps/place/${local.latitude},${local.longitude}`;
   return `http://www.google.com/maps/place/-54.813619,-68.327852`;
